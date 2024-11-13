@@ -3,3 +3,4 @@
 /content/big.txt
 answers/temporary/*
 !answers/temporary/.keep
+content/big.txt

@@ -60,5 +60,16 @@ const server = http.createServer((req, res) => {
   }
 });
 
+server.on("request", (req) => {
+  console.log("event received: ", req.method, req.url);
+});
+
+// Listen on port 3000, log a message to know that it is running
+// Output:
+// req.method is  GET
+// req.url is  /favicon.ico
+// event received:  GET /favicon.ico
+
+
 server.listen(3000);
-console.log("The server is listening on port 3000.");
+console.log("The server is listening on http://localhost:3000.");
