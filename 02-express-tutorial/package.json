@@ -4,12 +4,18 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "nodemon app.js",
+    "dev1": "nodemon app_lesson_4_logger.js",
+    "dev2": "nodemon app_lesson_4_methods.js",
+    "dev3": "nodemon app_lesson_4_refactoring.js",
+    "dev4": "nodemon app_lesson_4_cookie.js"
   },
   "keywords": [],
   "author": "Tetyana",
   "license": "ISC",
   "dependencies": {
+    "axios": "^1.7.7",
+    "cookie-parser": "^1.4.7",
     "express": "^4.21.1"
   },
   "devDependencies": {
